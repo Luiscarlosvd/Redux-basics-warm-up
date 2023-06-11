@@ -29,6 +29,7 @@ function CartContainer() {
         {cartItems.map((item) => (
           <CartItem
             key={item.id}
+            id={item.id}
             img={item.img}
             title={item.title}
             price={item.price}
